@@ -1,0 +1,91 @@
+*{
+	margin : 0;
+	padding : 0;
+	font-family : Century Gothic;
+	
+}
+
+header {
+	background-image : linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)), url(../gg.jpg);
+	height : 100vh;
+	background-size : cover;
+	background-position: center;
+}
+
+ul{
+	float: right;
+	list-style-type: none;
+	margin-top:25px;
+}
+
+ul li {
+	display: inline-block;
+}
+
+ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 30px;
+	border: 1px solid;
+	transition : 0.6s ease;
+	margin:10px;
+	
+}
+
+ul li a:hover{
+	background-color: #fff;
+	color: #000;
+}
+
+.main {
+	max-width: 1450px;
+	margin:30px;
+}
+
+.title{
+	position: absolute;
+	top :30%;
+	left:31%;
+	
+	transform : translate (-50%,-50%);
+}
+
+.title h1{
+	color: #fff;
+	font-size: 80px;
+	letter-spacing : 10px;
+	
+	
+}
+
+.Button {
+	position: absolute;
+	top :50%;
+	left:36%;
+	
+	transform : translate (-50%,-50%);
+
+}
+
+.btn1{
+	border: 1px solid #fff;
+	
+	color: #fff;
+	text-decoration: none;
+
+	padding: 5px 50px;
+	
+	transition : 0.6s ease;
+}
+
+.btn{
+	
+	border: 1px solid #fff;
+	
+	color: #fff;
+	text-decoration: none;
+
+	padding: 5px 50px;
+	
+	transition : 0.6s ease;
+	margin:10px;
